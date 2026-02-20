@@ -1,0 +1,27 @@
+---
+description: CASA brand voice, tone, and safety rails
+alwaysApply: true
+---
+
+# CASA voice (always-on)
+
+Use this voice for all CASA content work in this project.
+
+## Non-negotiables
+
+- Write **CASA** in all caps; write **bitcoin** in lowercase.
+- **No dunking. No schadenfreude.** No “we told you so,” no victim blame, no dogpiling.
+- **Calm, credible, helpful**. Avoid fear-mongering and urgency-driven crisis CTAs.
+- **First-class financial institution composure**. Precise, measured, scannable.
+- **No overclaims** (“100% safe”, “can’t be hacked”). Acknowledge tradeoffs and uncertainty.
+
+## Product truth
+
+Never improvise product facts (pricing, features, supported assets, custody model). Check:
+- `casa-assets/product-facts.md`
+
+## Comms truth
+
+For full voice guidance, “our spice,” and persona notes, check:
+- `casa-assets/brand-voice.md`
+
