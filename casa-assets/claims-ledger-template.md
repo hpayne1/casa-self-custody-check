@@ -2,7 +2,7 @@
 
 The **Claims ledger** is the product/comms safety net. It forces explicitness about:
 - what we know vs assume
-- what we’re claiming
+- what we're claiming
 - how we phrase uncertainty
 - whether statements match `product-facts.md`
 
@@ -18,7 +18,7 @@ The **Claims ledger** is the product/comms safety net. It forces explicitness ab
 
 | ID | Draft_snippet | Claim_type (fact/assumption/opinion) | Confidence (low/med/high) | Source_or_basis | Consistent_with_product_facts (y/n) | Risk_if_wrong | Safer_rewrite |
 |----|---------------|--------------------------------------|----------------------------|----------------|--------------------------------------|--------------|--------------|
-| C1 | ... | fact | med | (link / internal note / \"general principle\") | y | reputational | ... |
+| C1 | ... | fact | med | (link / internal note / "general principle") | y | reputational | ... |
 
 ## Things we explicitly avoided (and why)
 - Named_exchange: avoided (avoid dogpile; keep focus on principles)
@@ -27,19 +27,35 @@ The **Claims ledger** is the product/comms safety net. It forces explicitness ab
 - Urgency_CTA: avoided (not opportunistic)
 
 ## Language constraints checklist
-- [ ] Lowercase \"bitcoin\" throughout
-- [ ] No dunking / no schadenfreude / no \"we told you so\"
+- [ ] Lowercase "bitcoin" throughout
+- [ ] No dunking / no schadenfreude / no "we told you so"
 - [ ] No urgency-driven crisis CTA
 - [ ] Tradeoffs acknowledged (self-custody responsibility)
 - [ ] Clear separation of known facts vs assumptions
 - [ ] Go_to_market alignment (B2C vs B2B vs Mixed) respected (no cross-surface hallucinations)
-- [ ] X deliverables are distinct (anti-redundancy):\n  - Single post is brief first-aid (empathy + 1–2 actions)\n  - Thread adds new value via step-by-step guidance (no rephrasing the single)
-- [ ] Link-out integrity (if any links included):\n  - Total links across X deliverables ≤ contract max\n  - Any placeholder resource is clearly labeled as proposed (not implied to exist)
-- [ ] Cashtag policy satisfied (if assets mentioned):\n  - Use `$TICKER` once on first mention (per post/thread), then plain words thereafter\n  - Keep `bitcoin` lowercase after the cashtag
-- [ ] Blog internal links (if enabled):\n  - Links point to verified CASA pages (prefer CASA blog)\n  - No link stuffing (target 3–7 total)\n  - Links are embedded on relevant phrases, not sensitive/empathy-first sentences
-- [ ] Visual briefs included:\n  - X post 1 (single) visual recommendation/brief\n  - X post 2 (thread) visual recommendation/brief\n  - Blog hero (and optional inline diagram) brief
-- [ ] Asset-scope language is precise:\n  - Broad audience phrasing (\"crypto/assets/funds\") is not accidentally presented as a CASA product support claim\n  - Any CASA coverage mention is limited to supported assets: BTC, ETH, USDC, USDT
-- [ ] X account tiering respected:\n  - CASA_main has no first-person singular (\"I/my\")\n  - QTs do not introduce new risky claims not present in the main post
+- [ ] X deliverables are distinct (anti-redundancy):
+  - Single post is brief first-aid (empathy + 1–2 actions)
+  - Thread adds new value via step-by-step guidance (no rephrasing the single)
+- [ ] Link-out integrity (if any links included):
+  - Total links across X deliverables ≤ contract max
+  - Any placeholder resource is clearly labeled as proposed (not implied to exist)
+- [ ] Cashtag policy satisfied (if assets mentioned):
+  - Use `$TICKER` once on first mention (per post/thread), then plain words thereafter
+  - Keep `bitcoin` lowercase after the cashtag
+- [ ] Blog internal links (if enabled):
+  - Links point to verified CASA pages (prefer CASA blog)
+  - No link stuffing (target 3–7 total)
+  - Links are embedded on relevant phrases, not sensitive/empathy-first sentences
+- [ ] Visual briefs included:
+  - X post 1 (single) visual recommendation/brief
+  - X post 2 (thread) visual recommendation/brief
+  - Blog hero (and optional inline diagram) brief
+- [ ] Asset-scope language is precise:
+  - Broad audience phrasing ("crypto/assets/funds") is not accidentally presented as a CASA product support claim
+  - Any CASA coverage mention is limited to supported assets: BTC, ETH, USDC, USDT
+- [ ] X account tiering respected:
+  - CASA_main has no first-person singular ("I/my")
+  - QTs do not introduce new risky claims not present in the main post
 
 ## Feedback capture (Gate B) and persistence
 - GateB_feedback:
@@ -59,4 +75,3 @@ The **Claims ledger** is the product/comms safety net. It forces explicitness ab
 2. ...
 3. ...
 ```
-

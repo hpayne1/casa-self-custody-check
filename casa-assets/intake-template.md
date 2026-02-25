@@ -1,6 +1,6 @@
 # Intake template (task → normalized input)
 
-This is the “front door” module for the orchestrator. It converts messy task text into a deterministic packet that can be copied into the Contract.
+This is the "front door" module for the orchestrator. It converts messy task text into a deterministic packet that can be copied into the Contract.
 
 ```markdown
 ## Intake_normalized
@@ -10,7 +10,7 @@ This is the “front door” module for the orchestrator. It converts messy task
     [paste the raw ask]
 
 ### Scenario
-- Scenario_tag: [ExchangeHack | ScamWave | CustodyFailure | Other]
+- Scenario_tag: [ExchangeHack | ScamWave | CustodyFailure | RegulatoryShift | InheritancePlanning | SecurityBreach | GeneralEducation | Other]
 - Scenario_summary: [2–4 sentences, neutral]
 - Facts_known:
   - ...
@@ -46,7 +46,7 @@ This is the “front door” module for the orchestrator. It converts messy task
     - single_posts: [N]
     - threads: [N]
     - thread_max_tweets: 5
-    - default_for_ExchangeHack: 1_single + 1_thread
+    - default: 1_single + 1_thread
   - cashtag_policy:
     - enabled: true
     - first_mention_only: true
@@ -71,7 +71,7 @@ This is the “front door” module for the orchestrator. It converts messy task
     - qt_output_location: appendix
     - counts_toward_X_posts_count: false
   - pronoun_policy:
-    - CASA_main: no_first_person_singular  # no “I/my”
+    - CASA_main: no_first_person_singular  # no "I/my"
     - personal_accounts: first_person_allowed
 - Blog_post:
   - count: [N]
@@ -91,7 +91,21 @@ This is the “front door” module for the orchestrator. It converts messy task
 ### Constraints
 - Tone: calm, credible, first-class; validate → reframe → next step
 - CTA_policy: soft informational only (default)
-- Emoji_policy: none (default)
+- Emoji_policy: none (default; exception: one `🧵` at the start of a thread opener is allowed)
 - Product_truth: must match `product-facts.md`
 ```
 
+## Scenario defaults (reference)
+
+When the user doesn't specify, use these defaults per scenario type:
+
+| Scenario_tag | Default audience_segments | Default format_mix | Notes |
+|---|---|---|---|
+| ExchangeHack | victim_or_possibly_impacted, spectator_not_impacted, long_term_holder | 1 single + 1 thread (≤5) | Crisis: lead with empathy, scam avoidance |
+| ScamWave | victim_or_possibly_impacted, newcomer, long_term_holder | 1 single + 1 thread (≤5) | Phishing/social engineering focus |
+| CustodyFailure | victim_or_possibly_impacted, spectator_not_impacted | 1 single + 1 thread (≤5) | Platform withdrawal freeze, insolvency |
+| RegulatoryShift | spectator_not_impacted, long_term_holder, b2b_operator_custodian | 1 single + 1 thread (≤5) | Measured, non-political; focus on practical implications |
+| InheritancePlanning | long_term_holder, newcomer | 1 thread (≤5) | Educational; soft CTA to inheritance page |
+| SecurityBreach | victim_or_possibly_impacted, long_term_holder | 1 single + 1 thread (≤5) | Wallet/protocol vulnerability; calm next steps |
+| GeneralEducation | spectator_not_impacted, long_term_holder, newcomer | 1 thread (≤5) | Authority content; no crisis framing |
+| Other | (choose appropriate segments) | 1 single + 1 thread (≤5) | Adapt to context |

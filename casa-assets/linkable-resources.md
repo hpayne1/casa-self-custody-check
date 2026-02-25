@@ -4,36 +4,36 @@ This file is a **link/CTA safety registry** for the content pipeline.
 
 ## Placeholder policy (proposed resources)
 
-When a run requests a new resource that doesn’t exist yet (worksheet, checklist landing page), it must be:\n
-- clearly labeled as **proposed** or **placeholder**\n
-- expressed as a **path** (e.g., `/self-custody-check`) rather than a live URL\n
+When a run requests a new resource that doesn't exist yet (worksheet, checklist landing page), it must be:
+- clearly labeled as **proposed** or **placeholder**
+- expressed as a **path** (e.g., `/self-custody-check`) rather than a live URL
 - included with **soft** CTA language (no urgency)
 
 Recommended label formats:
-- `/self-custody-check (proposed worksheet)`\n
+- `/self-custody-check (proposed worksheet)`
 - `/self-custody-check (placeholder link)`
 
 ## Allowed CTA style (CASA tone)
 
-- Calm, informational, optional.\n
-- No “move now,” no fear hooks, no dunking.\n
-- Prefer: “If helpful…”, “We put together…”, “Here’s a 1-page…”
+- Calm, informational, optional.
+- No "move now," no fear hooks, no dunking.
+- Prefer: "If helpful…", "We put together…", "Here's a 1-page…"
 
 ## Default CTA copy blocks (safe)
 
 ### Worksheet CTA (placeholder)
 
-Use when `link_target_type=worksheet_placeholder`:\n
-- “If helpful, we put together a 1-page self-custody check you can run in 10 minutes: `/self-custody-check (proposed worksheet)`”
+Use when `link_target_type=worksheet_placeholder`:
+- "If helpful, we put together a 1-page self-custody check you can run in 10 minutes: `/self-custody-check (proposed worksheet)`"
 
 ### Checklist CTA (no link)
 
-Use when link-outs are disabled:\n
-- “If you want, reply ‘checklist’ and we’ll share a 1-page custody checklist.”
+Use when link-outs are disabled:
+- "If you want, reply 'checklist' and we'll share a 1-page custody checklist."
 
 ## Verified links
 
-Only add a link here if it has been verified to exist.\n
+Only add a link here if it has been verified to exist.
 
 - **Exchange risk / self-custody framing**:
   - [Exchanges vs. self-custody: Known vs. unknown risks](https://blog.casa.io/exchanges-vs-self-custody-risks/)
@@ -49,4 +49,3 @@ Only add a link here if it has been verified to exist.\n
   - [Introducing Casa Inheritance: Secure your generational wealth](https://blog.casa.io/introducing-casa-inheritance/)
   - [How estate planners can include bitcoin in a will](https://blog.casa.io/how-to-put-bitcoin-in-a-will/)
   - [CASA inheritance landing page](https://casa.io/inheritance)
-

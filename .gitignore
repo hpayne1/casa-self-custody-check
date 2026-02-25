@@ -5,4 +5,4 @@ out/
 .env.*
 *.tsbuildinfo
 .cache/
-deliverables/
+PRESENTATION-RUNSHEET.md

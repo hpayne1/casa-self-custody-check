@@ -7,14 +7,14 @@ This doc is the **product truth layer** for the content system. The **Product ch
 ## What CASA is (public positioning)
 
 - **Non-custodial, self-custody security software + expert support.**
-- Multi-key (“multisig”) vaults designed to reduce single points of failure.
+- Multi-key ("multisig") vaults designed to reduce single points of failure.
 - Inheritance planning is included with paid memberships (and referenced heavily across B2C pages).
 
 ## What CASA is not
 
 - **Not an exchange.**
 - **Not a custodian holding customer funds.**
-- Does not promise “unhackable” or “100% safe.”
+- Does not promise "unhackable" or "100% safe."
 
 ## Supported assets (vaults)
 
@@ -31,32 +31,32 @@ CASA states members can secure: **BTC, ETH, USDC, USDT**.
 
 - Vaults use **multiple keys** stored on separate devices/locations.
 - CASA describes the **mobile app as the portal** for managing the vault.
-- From CASA’s multisig page: keys are held in **cold storage** with the exception of the **mobile key**.
+- From CASA's multisig page: keys are held in **cold storage** with the exception of the **mobile key**.
 
 ### Key counts and thresholds (as described by CASA)
 
 - **3-key vault:** typically **2 of 3** keys to authorize (described on CASA landing page).
-- **5-key vault:** described on plan pages; multisig FAQ states “five keys protect your funds” and references needing multiple signatures.
+- **5-key vault:** described on plan pages; multisig FAQ states "five keys protect your funds" and references needing multiple signatures.
 - **Enterprise vault continuum:** enterprise page explicitly mentions vaults secured by **3, 5, or 6 keys**, plus a **hot wallet** option.
 
 ### Casa Recovery Key (important nuance)
 
-CASA’s multisig FAQ describes a **Casa Recovery Key**:
+CASA's multisig FAQ describes a **Casa Recovery Key**:
 - Held by CASA
-- Can’t move funds **on its own** (i.e., is not sufficient by itself to spend)
+- Can't move funds **on its own** (i.e., is not sufficient by itself to spend)
 - Exists as a failsafe for certain loss scenarios
 
 ## B2C (Individuals & families): plans & pricing (monthly-first)
 
 ### Standard
-- **Price shown:** `$21/mo` (note: “1 month free, then $250 billed annually.”)
+- **Price shown:** `$21/mo` (note: "1 month free, then $250 billed annually.")
 - **Positioning:** essential protection for individuals.
 - **Vault:** **3-key vault** to secure BTC/ETH/USDT/USDC.
 - **Includes (public):** inheritance; guided replacement for lost/stolen keys; email support.
 - **Notes (public):** uses your existing hardware device; video support may be available for purchase.
 
 ### Premium
-- **Price shown:** `$175/mo` (note: “$2,100 billed annually.”)
+- **Price shown:** `$175/mo` (note: "$2,100 billed annually.")
 - **Positioning:** superior protection for individuals/families; suggested for holdings > 1 BTC.
 - **Vault:** **5-key vault** to secure BTC/ETH/USDT/USDC.
 - **Includes (public):** welcome package (hardware devices + security accessories); 1-on-1 video onboarding/support; shared accounts optional; subaccounts; guided replacement for up to 2 lost/stolen keys.
@@ -83,7 +83,7 @@ CASA’s multisig FAQ describes a **Casa Recovery Key**:
 
 ### Enterprise (institutional)
 - **Pricing:** not public (consultation required).
-- **Positioning:** “maximum security” for treasury; global availability; “hold bitcoin and stablecoins on your balance sheet without counterparty risk.”
+- **Positioning:** "maximum security" for treasury; global availability; "hold bitcoin and stablecoins on your balance sheet without counterparty risk."
 - **Key capabilities (public):**
   - Multisignature vaults; **sovereign recovery**
   - **Enterprise dashboard** (balances, activity, reports; share view-only access with stakeholders/auditors)
@@ -108,29 +108,28 @@ This is for writers: start from the problem, then map to what CASA *actually* of
 
 | Problem statement | Who | Capability (what CASA offers) | Plans | Must-not-misstate / disclaimer |
 |---|---|---|---|---|
-| “I’m worried about exchange failure / hacks.” | B2C/B2B | Self-custody vaults reduce custodial/counterparty risk; explain keys vs IOU calmly. | Standard+ / Business+ | Don’t name/shame; no urgent crisis CTA; don’t overpromise outcomes. |
-| “I’m worried one device failure wipes me out.” | B2C/B2B | Multi-key redundancy across devices/locations; key replacement guidance. | Standard+ / Business+ | Don’t claim “risk-free”; explain tradeoffs. |
-| “I’m scared I’ll lose my keys.” | B2C/B2B | Key replacement guidance; recovery key concept (held by CASA; cannot spend alone). | Standard+ / Business+ | Don’t imply CASA can access funds. |
-| “I need an inheritance plan.” | B2C | Inheritance plan; enhanced verification in Private Client (U.S. only). | Standard+ / Private Client | Call out U.S.-only limits where relevant. |
-| “We need treasury controls and visibility.” | B2B | Dashboard + view-only access; role-based controls (enterprise). | Business/Enterprise | Don’t claim certifications beyond what’s stated; don’t invent SOC scope. |
-| “We need to move faster sometimes.” | B2B | Enterprise: hot wallet vs vault continuum (explicitly described by CASA). | Enterprise | Keep language precise: option exists; don’t imply it’s always recommended. |
-| “I’m not technical.” | B2C/B2B | Guided onboarding + support (tiered). | Premium+ / Business/Enterprise | Avoid “white-glove for everyone” claims; match plan promises. |
-| “I’m worried about scams / social engineering.” | B2C/B2B | Multi-key design reduces single-point compromise; support guidance; emergency lockdown (B2B). | Varies | Don’t claim it prevents all scams; frame as risk reduction. |
+| "I'm worried about exchange failure / hacks." | B2C/B2B | Self-custody vaults reduce custodial/counterparty risk; explain keys vs IOU calmly. | Standard+ / Business+ | Don't name/shame; no urgent crisis CTA; don't overpromise outcomes. |
+| "I'm worried one device failure wipes me out." | B2C/B2B | Multi-key redundancy across devices/locations; key replacement guidance. | Standard+ / Business+ | Don't claim "risk-free"; explain tradeoffs. |
+| "I'm scared I'll lose my keys." | B2C/B2B | Key replacement guidance; recovery key concept (held by CASA; cannot spend alone). | Standard+ / Business+ | Don't imply CASA can access funds. |
+| "I need an inheritance plan." | B2C | Inheritance plan; enhanced verification in Private Client (U.S. only). | Standard+ / Private Client | Call out U.S.-only limits where relevant. |
+| "We need treasury controls and visibility." | B2B | Dashboard + view-only access; role-based controls (enterprise). | Business/Enterprise | Don't claim certifications beyond what's stated; don't invent SOC scope. |
+| "We need to move faster sometimes." | B2B | Enterprise: hot wallet vs vault continuum (explicitly described by CASA). | Enterprise | Keep language precise: option exists; don't imply it's always recommended. |
+| "I'm not technical." | B2C/B2B | Guided onboarding + support (tiered). | Premium+ / Business/Enterprise | Avoid "white-glove for everyone" claims; match plan promises. |
+| "I'm worried about scams / social engineering." | B2C/B2B | Multi-key design reduces single-point compromise; support guidance; emergency lockdown (B2B). | Varies | Don't claim it prevents all scams; frame as risk reduction. |
 
 ## Disclaimers & must-not-misstate (copy rules)
 
 When content references product or compliance, keep to these:
-- “CASA is non-custodial / self-custody.”
-- “CASA doesn’t hold customer funds.”
-- “Buy/sell is provided through partners (Zero Hash) via the CASA app.”
-- Avoid implying CASA can “recover your funds” (they can guide key replacement; they cannot access funds).
+- "CASA is non-custodial / self-custody."
+- "CASA doesn't hold customer funds."
+- "Buy/sell is provided through partners (Zero Hash) via the CASA app."
+- Avoid implying CASA can "recover your funds" (they can guide key replacement; they cannot access funds).
 
 ## Product checker: common failure modes to catch
 
-- Calling CASA a “custodian” (unless very carefully phrased as non-custodial / collaborative custody).
-- Claiming CASA “holds your keys” in a way that implies custody of funds.
+- Calling CASA a "custodian" (unless very carefully phrased as non-custodial / collaborative custody).
+- Claiming CASA "holds your keys" in a way that implies custody of funds.
 - Misstating supported assets or plan pricing (especially Business/Enterprise).
 - Confusing **hot wallet** vs **vault** options (hot wallet is explicitly called out on Enterprise page).
 - Overclaiming security outcomes (guarantees).
 - Using urgent crisis CTAs that feel predatory.
-

@@ -5,7 +5,7 @@ description: Generates CASA-style educational and curator content ideas (Ahrefs/
 
 # CASA Educational / Curator Content
 
-Goal: help CASA become the **reasonable, first-class** authority in self-custody by producing content that’s useful to the whole ecosystem (Ahrefs-style), often through **personal-account voice** (ClickUp-style), while staying **measured** (Eric Voorhees-style restraint).
+Goal: help CASA become the **reasonable, first-class** authority in self-custody by producing content that's useful to the whole ecosystem (Ahrefs-style), often through **personal-account voice** (ClickUp-style), while staying **measured** (Eric Voorhees-style restraint).
 
 ## Source of truth files (read first)
 
@@ -39,15 +39,15 @@ Return a list of ideas with the following fields for each:
 Then pick **one** idea and expand into a draft-ready **brief**:
 - working headline
 - section outline
-- recommended CTA posture (often “none” or soft informational)
-- suggested visual format (or “no visual”)
+- recommended CTA posture (often "none" or soft informational)
+- suggested visual format (or "no visual")
 
 ## Idea generation constraints
 
 - Quality over quantity: **8–12 ideas max**.
 - Avoid dunking, fear, or opportunism.
-- Stay consistent with `product-facts.md` (don’t invent features/pricing).
-- Prefer “decision support” content: frameworks, checklists, ladders.
+- Stay consistent with `product-facts.md` (don't invent features/pricing).
+- Prefer "decision support" content: frameworks, checklists, ladders.
 
 ## Authority patterns to emulate (without copying)
 
@@ -58,7 +58,7 @@ Then pick **one** idea and expand into a draft-ready **brief**:
 
 ### ClickUp-style
 - Personal account voice (founder/team): short, relatable, useful
-- “Here’s what we learned…” posts that are honest and actionable
+- "Here's what we learned…" posts that are honest and actionable
 
 ### Eric Voorhees-style (tone only)
 - Measured, fair, principle-driven
@@ -71,4 +71,3 @@ Then pick **one** idea and expand into a draft-ready **brief**:
 3. **Operational security** (travel, phishing, social engineering)
 4. **Inheritance** (what to think about, questions to ask, safe steps)
 5. **Incident response** (what to do in first 24 hours; calm checklist)
-

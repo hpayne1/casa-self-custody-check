@@ -3,7 +3,7 @@
 This doc supports:
 - the **Assigner** (understanding category + positioning)
 - the **Educational curator** (resource roundups)
-- “Ahrefs-style authority” (helpful to the ecosystem, not salesy)
+- "Ahrefs-style authority" (helpful to the ecosystem, not salesy)
 
 ## Direct peers (self-custody services / collaborative custody)
 
@@ -33,10 +33,10 @@ This doc supports:
 ## How others often respond in crisis (pattern, not dunking)
 
 In exchange hacks/failures, the best-in-class pattern (what we should emulate) tends to be:
-- Empathy first, no “told you so”
+- Empathy first, no "told you so"
 - Explain custody plainly
 - Offer safe next steps
-- Avoid naming/shaming (unless you’re reporting facts neutrally)
+- Avoid naming/shaming (unless you're reporting facts neutrally)
 
 What to avoid (common crypto failure modes):
 - Fear-mongering and urgent CTAs
@@ -45,22 +45,21 @@ What to avoid (common crypto failure modes):
 
 ## Authority content angles (Ahrefs/ClickUp style)
 
-### “Hard conversations” library
+### "Hard conversations" library
 - How to talk to family about moving from exchanges to self-custody (without sounding preachy)
 - How to explain keys, custody, and responsibility in plain language
 - How to help a friend after a loss (support, not judgment)
 
-### “Coping and next steps” resources (post-incident)
+### "Coping and next steps" resources (post-incident)
 - What to do in the first 24 hours after a hack headline
 - A calm checklist: verify facts, avoid scams, assess exposure, proceed in steps
 
 ### Evergreen decision support
 - Exchange vs self-custody vs multisig (when each makes sense)
 - A simple self-custody ladder (small → medium → large holdings)
-- Tradeoffs: what self-custody solves and what it doesn’t
+- Tradeoffs: what self-custody solves and what it doesn't
 
 ### Tooling roundups (ecosystem-friendly)
-- “If you’re starting self-custody: the safest beginner set”
-- “If you care about inheritance: questions to ask + options to compare”
-- “If you travel a lot: operational security basics”
-
+- "If you're starting self-custody: the safest beginner set"
+- "If you care about inheritance: questions to ask + options to compare"
+- "If you travel a lot: operational security basics"

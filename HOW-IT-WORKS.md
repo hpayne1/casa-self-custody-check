@@ -30,11 +30,26 @@ At minimum:
 
 ### Control flags
 
-- `autoApproveGates`: skip human approval at Gate A (contract) and Gate B (final review) — useful for fast iteration
+- `autoApproveGates`: skip human approval at Gate A (contract) and Gate B (final review)
 - `feedbackPersistence`: `apply_this_run_only` (default) or `persist_for_future`
 - `Go_to_market`: B2C, B2B, or Mixed
 - `Primary_product_surface`: Standard, Premium, Business, Enterprise
-- `Audience_segments`: e.g., `victim_or_possibly_impacted`, `spectator_not_impacted`, `long_term_holder`, `b2b_operator_custodian`
+- `Audience_segments`: e.g., `victim_or_possibly_impacted`, `spectator_not_impacted`, `long_term_holder`, `newcomer`, `b2b_operator_custodian`
+
+### Scenario types
+
+The robot supports multiple scenario types, each with sensible defaults for audience segments, format mix, and visual packs. See `casa-assets/intake-template.md` for the full defaults table.
+
+| Scenario_tag | Use case |
+|---|---|
+| ExchangeHack | Exchange hack / breach response |
+| ScamWave | Active phishing or social engineering campaign |
+| CustodyFailure | Platform insolvency or withdrawal freeze |
+| RegulatoryShift | New regulation with custody implications |
+| InheritancePlanning | Evergreen inheritance education |
+| SecurityBreach | Wallet or protocol vulnerability |
+| GeneralEducation | Authority content, no crisis framing |
+| Other | Custom scenario |
 
 ---
 
@@ -49,7 +64,7 @@ These files prevent hallucinations and enforce consistency:
 | `casa-assets/contract-template.md` | The enforceable brief structure that scopes every campaign run. |
 | `casa-assets/claims-ledger-template.md` | Tracks every claim vs assumption in the output; flags anything unverifiable. |
 | `casa-assets/linkable-resources.md` | Registry of verified CASA links and CTA copy; prevents broken/invented URLs. |
-| `casa-assets/visual-assets.md` | Visual posture rules (minimal, calm, no panic graphics). |
+| `casa-assets/visual-assets.md` | Visual posture rules (minimal, calm, no panic graphics) + pre-designed visual packs. |
 | `casa-assets/competitors-and-resources.md` | Context on direct peers and authority content patterns. |
 | `.cursor/rules/casa-tone.mdc` | Always-on rule that enforces tone across all Cursor interactions in the project. |
 
@@ -63,6 +78,7 @@ User prompt
     v
 Step 0: Intake Normalizer
     |  Converts raw ask into structured input (scenario, audience, deliverables)
+    |  Uses scenario defaults table for missing parameters
     v
 Step 1: Contract Builder (Gate A)
     |  Produces an enforceable brief; validates product refs against product-facts.md
@@ -92,6 +108,7 @@ Step 6: Claims Ledger
     v
 Step 7: Visual Selector
     |  Produces designer-ready visual briefs (X posts + blog hero)
+    |  Uses scenario-appropriate visual packs from visual-assets.md
     v
 Step 8: Gate B (final approval)
     |  Human reviews assembled campaign; can request revisions
@@ -119,19 +136,27 @@ Step 9: Self-Learning Update (post-publish)
 - **Growth_Marketing QT** for each X post
 - **Visual briefs**: designer-ready specs for X post graphics and blog hero
 
+### Audit trail
+
+- **Contract snapshot**: the enforceable brief the robot worked against
+- **Claims ledger**: every claim and assumption tracked and verified
+
 ### File output
 
-All deliverables are written to disk as markdown files under `deliverables/YYYY-MM-DD_<Scenario_tag>/`:
+All deliverables are written to disk as markdown files under `history/<date>-<scenario-slug>/`:
 
 ```
-deliverables/2026-02-20_ExchangeHack/
-  2026-02-20_ExchangeHack_x_post_1_casa_main.md
-  2026-02-20_ExchangeHack_x_post_2_thread_casa_main.md
-  2026-02-20_ExchangeHack_blog.md
-  2026-02-20_ExchangeHack_follow_up_idea.md
-  2026-02-20_ExchangeHack_what_we_wouldnt_do.md
-  2026-02-20_ExchangeHack_visual_briefs_designer_handoff.md
-  2026-02-20_ExchangeHack_appendix_qt_pack.md
+history/2026-02-20-exchange-hack-takehome/
+  README.md
+  contract.md
+  claims-ledger.md
+  x-post-1-casa-main.md
+  x-post-2-thread-casa-main.md
+  blog.md
+  follow-up-idea.md
+  what-we-wouldnt-do.md
+  visual-briefs.md
+  appendix-qt-pack.md
 ```
 
 ---

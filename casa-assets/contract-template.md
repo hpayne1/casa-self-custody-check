@@ -2,14 +2,14 @@
 
 This is the template the **Contract builder** outputs and **Gate A** approves. The **Assembler** must enforce it.
 
-Use the **take-home preset** by keeping defaults as-is and filling only scenario details.
+Use the **default preset** by keeping defaults as-is and filling only scenario details.
 
 ```markdown
 # Contract: [Title]
 
 ## Meta
 - Date:
-- Scenario_tag: [e.g., ExchangeHack | ScamWave | CustodyFailure]
+- Scenario_tag: [e.g., ExchangeHack | ScamWave | CustodyFailure | RegulatoryShift | InheritancePlanning | SecurityBreach | GeneralEducation | Other]
 - Scenario_summary:
 - Facts_known: [what is actually known]
 - Facts_unknown: [what is not confirmed]
@@ -26,6 +26,7 @@ Use the **take-home preset** by keeping defaults as-is and filling only scenario
   - victim_or_possibly_impacted: "Feels seen; gets safe next steps (verify, avoid scams); no minimizing."
   - spectator_not_impacted: "Gets a calm custody framework; not panic-driven."
   - long_term_holder: "Gets validated posture + clear principle; avoids 'told you so' tone."
+  - newcomer (optional): "Gets plain-language explanation; safe defaults; no jargon overload."
   - b2b_operator_custodian (optional): "Gets a sober internal-controls framing (risk reduction, not absolutes) and a soft invite to talk; no blame."
 - Primary_persona: CEO_Nick | Educational_curator | Head_of_marketing | General_creator
 - Secondary_personas (optional):
@@ -47,9 +48,9 @@ Use the **take-home preset** by keeping defaults as-is and filling only scenario
 ## Deliverables (contract the assembler enforces)
 
 - X_posts:
-  - count: 2   # take-home default
+  - count: 2   # default
   - format_mix:
-    - default_for_ExchangeHack: 1_single + 1_thread
+    - default: 1_single + 1_thread
     - thread_max_tweets: 5
   - cashtag_policy:
     - enabled: true
@@ -68,7 +69,7 @@ Use the **take-home preset** by keeping defaults as-is and filling only scenario
     - link_target_placeholder: /self-custody-check  # proposed landing page (placeholder)
   - posting_policy:
     - counted_posts_account: CASA_main
-    - pronoun_policy_CASA_main: no_first_person_singular  # no “I/my”
+    - pronoun_policy_CASA_main: no_first_person_singular  # no "I/my"
     - auto_qt_pack:
       - enabled: true
       - accounts: [CEO_Nick, Growth_Marketing]
@@ -79,10 +80,10 @@ Use the **take-home preset** by keeping defaults as-is and filling only scenario
     - lowercase "bitcoin"
     - no naming/shaming victims or the exchange (unless explicitly allowed)
     - avoid urgent crisis CTA
-    - emojis: default none (≤1 only if explicitly requested and not a crisis)
+    - emojis: default none (exception: one `🧵` at the start of a thread opener is allowed as a structural cue)
     - go_to_market_alignment: if Go_to_market is B2C, avoid B2B-only claims (web dashboard, role management, hot wallet). If B2B, avoid B2C-only pricing/feature assumptions unless explicitly in scope.
 - Blog_post:
-  - count: 1   # take-home default
+  - count: 1   # default
   - word_count_range: 500-800
   - internal_linking_policy:
     - enabled: true
@@ -123,9 +124,9 @@ Use the **take-home preset** by keeping defaults as-is and filling only scenario
     - "Short sentences, precise language. One metaphor max."
     - "Avoid crypto slang in serious contexts."
   - example_openers:
-    - "If you’re feeling uneasy today, that makes sense. Here’s what matters—and what you can do next."
+    - "If you're feeling uneasy today, that makes sense. Here's what matters—and what you can do next."
     - "Events like this are a reminder: convenience and custody are not the same thing."
-    - "An exchange account can be convenient—but it’s also counterparty risk. Here’s how to think about it."
+    - "An exchange account can be convenient—but it's also counterparty risk. Here's how to think about it."
 
 - Educational_curator_microbrief:
   - mission_and_posture: "Practical teacher. Reduce fear by making steps concrete. Use non-crypto words first, then map to crypto terms."
@@ -143,9 +144,9 @@ Use the **take-home preset** by keeping defaults as-is and filling only scenario
   - vocabulary_and_style:
     - "Scannable headings, bullets, examples."
   - example_openers:
-    - "Self-custody doesn’t have to be scary. Start with these three basics."
-    - "If you’ve only ever held bitcoin on an exchange, here’s the simplest mental model to understand what just happened."
-    - "Think of custody like who controls the vault—then we’ll translate that into keys and multisig."
+    - "Self-custody doesn't have to be scary. Start with these three basics."
+    - "If you've only ever held bitcoin on an exchange, here's the simplest mental model to understand what just happened."
+    - "Think of custody like who controls the vault—then we'll translate that into keys and multisig."
 
 - Head_of_marketing_microbrief (optional):
   - mission_and_posture: "Clarity and consistency. Helpful without being salesy."
@@ -193,4 +194,3 @@ Use the **take-home preset** by keeping defaults as-is and filling only scenario
 - Gate_A_approve_contract: required
 - Gate_B_final_approval: required
 ```
-

@@ -1,6 +1,6 @@
 # Performance scorecard (mixed: trust + engagement + conversions)
 
-Use this after publishing. It’s designed to optimize **quality over quantity** while still learning from performance.
+Use this after publishing. It's designed to optimize **quality over quantity** while still learning from performance.
 
 ## Weights (defaults)
 
@@ -8,7 +8,7 @@ Use this after publishing. It’s designed to optimize **quality over quantity**
 - **Engagement**: 30%
 - **Conversions**: 20%
 
-Adjust weights only if you can justify why (e.g., “trust was stable; optimizing for CTR in a non-crisis campaign”).
+Adjust weights only if you can justify why (e.g., "trust was stable; optimizing for CTR in a non-crisis campaign").
 
 ## Trust / credibility rubric (1–5 each)
 
@@ -47,4 +47,3 @@ When you write learnings, split them:
 
 - **global_CASA_quality**: applies to all runs (tone, structure, clarity, restraint).
 - **scenario_specific**: only applies when `Scenario_tag` matches (e.g., `ExchangeHack`).
-
